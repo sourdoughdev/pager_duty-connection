@@ -18,7 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "faraday", "~> 2.0.0"
-  gem.add_dependency "faraday_middleware", "~> 2.0.0"
   gem.add_dependency "activesupport", ">= 3.2", "~> 7.0"
   gem.add_dependency "hashie", ">= 1.2"
 end
